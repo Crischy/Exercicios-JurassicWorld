@@ -1,0 +1,322 @@
+
+            /* Config. lobais */
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #123123;
+}
+
+p {
+    margin-top: 15px;
+}
+
+
+
+/* header */
+
+#divMenu {
+    background-image: url("jp_topoFundo.jpg");
+    width: 900px;
+    height: 200px;
+    margin: 0 auto;                 /* Para centralizar o elemento */
+
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+#navMenu {                      /*  */
+    position: relative;
+    top: -80px;
+    left: 325px;
+
+    background-image: url("jp_menuFundo.jpg");
+    width: 500px;
+    height: 40px;
+
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0px 0px 25px #123123;
+
+    border: 2px solid #ffffff;
+    border-radius: 20px 0;
+}
+
+#navMenu a, #navMenu span {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    /* text-shadow: black; */
+    text-shadow: 2px 2px #123123; /* (?) | Permite um ou 3 parâmetros... */
+    font-size: 20px;
+}
+
+#navMenu a:hover {
+    text-decoration: underline;
+}
+
+
+
+            /* Secção FILMES */
+
+#divTituloFilmes {
+    position: relative;
+    background-color: #550000;
+    margin: 0 auto;                 /* Para centralizar o elemento */
+    width: 900px;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+@font-face {
+    font-family: JurassicFont;
+    src: url("jp_fontJurassicPark.ttf");
+}
+
+#tituloSectionFilmes {
+    font-family: JurassicFont;
+    font-size: 60px;
+    letter-spacing: 4px;
+    line-height: 100px;
+}
+
+/* Modelo de artigo - Secção Filmes */
+
+.divsFilmes {
+    /* position: relative; */       /* Sem a propriedade position porque (?) */
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+/* Filme 01, 03 */
+
+#divFilme1, #divFilme3 {
+    background-color: white;
+}
+
+#divFilme1 img, #divFilme3 img {
+    border: 5px solid #ff0000;
+    position: relative;
+    float: left;                /* Checked */
+    top: 50px;
+    left: 50px;
+}
+
+#divFilme1 h2, #divFilme3 h2 {
+    position: relative;
+    top: 50px;
+    left: 90px;
+    margin: 0;
+}
+
+#textoFilme1, #textoFilme3 {
+    position: relative;
+    width: 750px;               /* */
+    top: 50px;
+    left: 90px;
+}
+
+/* Filmes 02 e 04 */
+
+#divFilme2, #divFilme4 {
+    background-color: #555555;
+}
+
+#divFilme2 img, #divFilme4 img {
+    border: 5px solid #ffff00;
+    position: relative;
+    float: right;               /* Checked */
+    top: 50px;
+    right: 50px;
+}
+
+#divFilme2 h2, #divFilme4 h2 {
+    position: relative;
+    top: 50px;
+    left: 40px;
+    color: #ffffff;
+    margin: 0;
+}
+
+#textoFilme2, #textoFilme4 {
+    position: relative;
+    top: 50px;
+    left: 40px;
+    width: 600px;
+    color: #ffffff;
+}
+
+
+
+            /* Secção PRÉMIOS */
+
+#premios {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}            
+
+.divPremios {
+    position: relative;
+    margin: auto;
+    padding: 50px 0 75px 0;
+
+    background-image: url("jp_fundoSelva.jpg");
+    background-attachment: fixed;
+    width: 900px;
+}
+
+#tituloSeccaoPremios {
+    position: relative;
+    color: white;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+/* Tabela de Premiações */
+
+#tabelaClassificacao {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+#tabelaClassificacao th {
+    color: white;
+    background-color: #333333;
+    font-size: 20px;
+}
+
+#tabelaClassificacao tr {
+    background-color: #dddd00;
+}
+
+#tabelaClassificacao tr:nth-child(even) {
+    background-color: #999999;
+}
+
+
+
+            /* Secção CND */
+
+#criadorNomeDinossauro {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+    background-color: #818167;
+}
+
+#divCND {
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 10px;
+
+    margin: 0 auto;
+    width: 250px;
+}
+
+/* Título */
+
+#divTituloCND {
+    text-align: center;
+}
+
+#tituloCND {
+    color: white;
+}
+
+/* Formulário */
+
+#divCND form {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.camposFormCND {
+    display: block;
+    height: 30px;
+    width: 100%;
+
+    margin-bottom: 15px;
+    padding: 0;
+
+    border-radius: 2px;
+    border-width: 0;
+}
+
+#ultCampoFormCND {
+    margin-bottom: 0px;
+}
+
+.btFormCND {
+    position: relative;
+    margin-top: 15px;
+    padding: 0;
+
+    height: 30px;
+    width: 40%;
+
+    border-radius: 2px;
+    border-width: 0;
+}
+
+#btEnviar {
+    float: right;
+    margin-right: 10%;
+}
+
+
+
+            /* Rodapé */
+
+#footer {
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+}
+
+#divFooter {
+    position: relative;
+    margin: 0 auto;
+
+    background-image: url("jp_topoFundo.jpg");
+    width: 900px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#descricaoFooter {
+    margin: 0;
+
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    text-shadow: 2px 2px #123123;          /*  */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
